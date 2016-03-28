@@ -24,7 +24,7 @@
     "start": "node ./dist/js/src/main.js",    
     "test": "mocha ./dist/js/test/*.test.js",
     "build": "gulp build",
-    "test-coverage": "istanbul cover _mocha -- ./dist/js/test/*.test.js"
+    "test-coverage": "istanbul cover --hook-run-in-context node_modules/mocha/bin/_mocha -- ./dist/js/test/*.test.js"
   },
   "repository": {
     "type": "git",
