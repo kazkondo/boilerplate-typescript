@@ -1,0 +1,10 @@
+.DS_Store
+.tags*
+/.idea/
+/dist/
+/typings/
+/coverage/
+debug.log
+npm-debug.log
+node_modules/
+/vendor/*

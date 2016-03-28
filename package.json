@@ -1,0 +1,39 @@
+{
+  "name": "tssample",
+  "version": "1.0.0",
+  "description": "Boiler template for typescript developemnt",
+  "main": "dist/js/main.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.12.1",
+    "merge2": "^1.0.1",
+    "mocha": "^2.4.5",
+    "power-assert": "^1.3.1",
+    "power-assert-formatter": "^1.3.2",
+    "sinon": "^1.17.3",
+    "typings": "^0.7.9"
+  },
+  "scripts": {
+    "start": "node ./dist/js/src/main.js",    
+    "test": "mocha ./dist/js/test/*.test.js",
+    "build": "gulp build",
+    "test-coverage": "istanbul cover _mocha -- ./dist/js/test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunascape/boiler-typescript.git"
+  },
+  "author": "Lunascape Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunascape/boiler-typescript/issues"
+  },
+  "homepage": "https://github.com/lunascape/boiler-typescript#readme"
+}
